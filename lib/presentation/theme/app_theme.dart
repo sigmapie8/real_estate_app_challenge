@@ -4,11 +4,11 @@ class AppTheme {
   static const primaryColor = Color(0xff38B4BC);
   static const secondaryColor = Colors.black;
   static const tertiaryColor = Color(0xffF3B334);
-  static const bodyColor = Color(0xffF4F5F9);
+  static const bodyColor = Color(0xffA5A5A5);
 
   static const TextStyle heading1Style = TextStyle(
     color: AppTheme.primaryColor,
-    fontSize: 24.0,
+    fontSize: 35.0,
     fontWeight: FontWeight.bold,
   );
 
@@ -20,7 +20,7 @@ class AppTheme {
 
   static const TextStyle bodyStyle = TextStyle(
     color: AppTheme.bodyColor,
-    fontSize: 12.0,
-    fontWeight: FontWeight.normal,
+    fontSize: 18.0,
+    fontWeight: FontWeight.w600,
   );
 }
